@@ -1,4 +1,4 @@
-# synthesis-aid
+![findrxns-example](https://github.com/lianx2/synthesis-aid/assets/69220047/f29e5916-4fc2-4608-89b7-ecea292a11cd)# synthesis-aid
 perl exercise for filtering rxns
 
 findrxns.pl searches the provided reaction library for transformations that match the user’s input. For each transformation, the possible reactions are evaluated against the user’s input restraints (ex. acid), and are organized under the labels included and excluded. The potential reason for exclusion is also printed in output. Predictions are not implemented to evaluate or sort by viability the reactions as the intention of this program is not to determine a synthesis, but to aid the user in creatively considering potential reactions.
@@ -7,18 +7,27 @@ crudeness: findrxns.pl outputs a list of possible considerations for each transf
 
 an initial testing library was manually created (rxn.lb); a supplementary function $findP.pl was written to identify reactions producing a user specified product from the input library.
 
-some abbreviations 
+some abbreviations
 1-OH	=> primary alcohol
+
 2-OH  => secondary alcohol
+
 3-OH  => tertiary alcohol
+
 OH    => alcohol (for PGs and conversions, i.e. OTf, OMs, etc.)
+
 1-2-diol  => 1,2-diol
+
 1-3-diol  => 1,3-diol
+
 1-4-diol  => 1,4-diol
+
 a-w-diol  => alpha-omega-diol
 cyc-ketone  => cyclic ketone
 CHO	  => aldehyde
 COOH  => carboxylic acid
 X	    => halogen
 COCl	=> acid chloride
+
+Example: ![findrxns-example](https://github.com/lianx2/synthesis-aid/assets/69220047/2e0a8127-6f00-48c9-aae6-96cae235460b)
 
